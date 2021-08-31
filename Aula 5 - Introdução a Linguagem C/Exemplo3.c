@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
 	
 
@@ -15,6 +15,6 @@ void main()
     resultado = num1/num2;
 
     printf("O resultado é %.2f",resultado);
-
+    return 0;
 	
 }
