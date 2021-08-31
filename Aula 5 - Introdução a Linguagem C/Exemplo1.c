@@ -1,14 +1,16 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
 
     char nome[80];
 
 	
 	printf("\n Digite seu nome: ");
-	scanf("%s",&nome);
+	scanf("%[ˆ\n]s",nome);
 
 	printf("O nome é %s\n ",nome);
+	
+	return 0;
 
 }
