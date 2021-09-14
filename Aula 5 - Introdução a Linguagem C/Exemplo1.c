@@ -7,7 +7,7 @@ int main()
 
 	
 	printf("\n Digite seu nome: ");
-	scanf("%[ˆ\n]s",nome);
+	fgets(nome, 80, stdin);
 
 	printf("O nome é %s\n ",nome);
 	
