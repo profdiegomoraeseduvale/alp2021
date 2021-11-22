@@ -6,7 +6,7 @@ int main(){
   int vet[6];
   int x,y,soma;
 
-  for (int i = 0; i < 5; i++)
+  for (int i = 0; i < 6; i++)
   {
   	printf("Digite o valor %d\n",i);
   	scanf("%d",&vet[i]);
